@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from version control
-                git 'https://your-repository-url.git'
+                git 'https://github.com/Asadmahmand/test.git'
             }
         }
 
